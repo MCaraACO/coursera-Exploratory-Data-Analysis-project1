@@ -61,7 +61,6 @@ par(mfrow=c(1,1))
 png("plot1.png", width=480, height=480)
 hist(data_subseted$Global_active_power, main="Global Active Power", 
      xlab="Global Active Power (kilowatts)", ylab="Frequency", col="Red")
-png("plot1.png", width=480, height=480)
 dev.off()
 ```
 https://github.com/rdpeng/ExData_Plotting1/blob/master/figure/unnamed-chunk-2.png
